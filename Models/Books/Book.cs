@@ -1,4 +1,5 @@
-﻿using BookStore.Models.Departments;
+﻿using BookStore.Models.Authors;
+using BookStore.Models.Departments;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -25,6 +26,11 @@ namespace BookStore.Models.Books
         public int Dept_Id { get; set; }
 
         public Department Department { get; set; }
+
+        [ForeignKey("Author")]
+        [Required]
+        public int AuthorId { get; set; }
+        public Author Author { get; set; }
 
     }
 }

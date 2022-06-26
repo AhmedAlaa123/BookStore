@@ -1,4 +1,6 @@
-﻿using BookStore.Models.Departments;
+﻿using BookStore.Models.Authors;
+using BookStore.Models.Departments;
+using System.ComponentModel.DataAnnotations;
 
 namespace BookStore.Models.Books
 {
@@ -14,6 +16,9 @@ namespace BookStore.Models.Books
         public int Author_Id { get; set; }
         public DepartmentInfoTDO Department { get; set; }
 
+        public int AuthorId { get; set; }
+
+        public AuthorInfoDTO Author { get; set; }
 
     }
 }

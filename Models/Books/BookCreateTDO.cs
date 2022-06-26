@@ -16,5 +16,8 @@ namespace BookStore.Models.Books
         public int Author_Id { get; set; }
         [Required(ErrorMessage = "*Department Name Is Required")]
         public int Dept_Id { get; set; }
+
+        [Required]
+        public int AuthorId { get; set; }
     }
 }
