@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prgramming Data\\MVC Projects\\BookStore\\BookStore.csproj": {}
+    "D:\\Prgramming Data\\MVC Projects\\BookStore2\\BookStore.csproj": {}
   },
   "projects": {
-    "D:\\Prgramming Data\\MVC Projects\\BookStore\\BookStore.csproj": {
+    "D:\\Prgramming Data\\MVC Projects\\BookStore2\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prgramming Data\\MVC Projects\\BookStore\\BookStore.csproj",
+        "projectUniqueName": "D:\\Prgramming Data\\MVC Projects\\BookStore2\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "D:\\Prgramming Data\\MVC Projects\\BookStore\\BookStore.csproj",
+        "projectPath": "D:\\Prgramming Data\\MVC Projects\\BookStore2\\BookStore.csproj",
         "packagesPath": "C:\\Users\\Eng-Ahmed Alaa\\.nuget\\packages\\",
-        "outputPath": "D:\\Prgramming Data\\MVC Projects\\BookStore\\obj\\",
+        "outputPath": "D:\\Prgramming Data\\MVC Projects\\BookStore2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
